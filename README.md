@@ -17,5 +17,14 @@ Run Jupyter: `jupyter notebook`
 We will access financial data using the Quandl library. Please go to https://www.quandl.com/tools/python and register to get your api_key. You will need to use your own api_key to pull data from the quandl financial library. Your api_key composes of some letters and numbers like "en4QxsRCiWpsy6134xRs"
 
 
+# Run
+Virtual Env:
+```
+$ virtualenv -p python3 venv
+$ source venv/bin/activate
+```
+Install packages: `$ pip3 install -r requirements.txt`, which include quandl seaborn matplotlib numpy pandas scipy scikit-learn fbprophet
+
+
 ### About the DeprecationWarning:
 Your editor may report warning when you try to run the code, this is because the update of packages. You can ignore those warnings for now.
