@@ -1,0 +1,8 @@
+quandl
+seaborn
+matplotlib
+numpy
+pandas
+scipy
+scikit-learn
+fbprophet
